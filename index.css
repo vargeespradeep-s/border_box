@@ -9,6 +9,7 @@
 .space{
     padding: 0rem 10rem;
 }
+/* --------1st border */
 .firstBox{
     width: 79%;
     min-height: 92vh;
@@ -18,6 +19,7 @@
     top: 2rem;
     left: 10rem;
 }
+/* ------2nd border--------- */
 .secondBox{
     width: 47%;
     min-height: 79vh;
@@ -27,6 +29,7 @@
     top: 5rem;
     left: 25.5rem;
 }
+/* ------------3rd border----- */
 .thirdBox{
     width: 16%;
     min-height: 65vh;
@@ -42,6 +45,7 @@
 .col{
     padding: 0rem 2rem !important;
 }
+/* -------------media query for mobile */
 @media screen and (min-width:300px) and (max-width:500px) {
     .firstBox,.secondBox,.one,.two,.four,.five{
         display: none ;
@@ -57,6 +61,7 @@
         padding: 0rem 2rem !important;
     }
 }
+/* ------------media query tablet--------- */
 @media screen and (min-width:500px) and (max-width:600px) {
     .firstBox,.one,.five{
         display: none ;
@@ -77,6 +82,7 @@
         padding: 0rem 2rem !important;
     }
 }
+/* ------------media query tablet--------- */
 @media screen and (min-width:600px) and (max-width:700px) {
     .firstBox,.one,.five{
         display: none ;
@@ -97,7 +103,7 @@
         padding: 0rem 2rem !important;
     }
 }
-
+/* ------------media query tablet--------- */
 @media only screen and (min-width: 700px) and (max-width:800px) {
     .firstBox,.one,.five{
         display: none ;
@@ -120,7 +126,7 @@
         padding: 0rem 2.5rem !important;
     }
 }
-
+/* ------------media query small laptop--------- */
 @media only screen and (min-width: 800px) and (max-width: 870px) {
     .firstBox{
         width: 96%;
@@ -145,6 +151,7 @@
         padding: 0rem 1.5rem !important;
     }
 }
+/* ------------media query small laptop--------- */
 @media only screen and (min-width: 870px) and (max-width: 950px){
     .firstBox{
         width: 96%;
@@ -170,7 +177,7 @@
     }
 }
 
-
+/* ------------media query small laptop--------- */
 @media only screen and (min-width: 950px) and (max-width: 1030px) {
     .firstBox{
         width: 96%;
@@ -194,6 +201,7 @@
         padding: 0rem 2.5rem !important;
     }
 }
+/* ------------media query large laptop--------- */
 @media only screen and (min-width: 1030px) and (max-width: 1100px) {
     .firstBox{
     min-height: 90vh;
@@ -217,6 +225,7 @@
     padding: 0rem 2.5rem !important;
 }
 }
+/* ------------media query large laptop--------- */
 @media only screen and (min-width: 1100px) and (max-width: 1200px) {
     .firstBox{
     min-height: 90vh;
@@ -240,6 +249,7 @@
     padding: 0rem 2.5rem !important;
 }
 }
+/* ------------media query large laptop--------- */
 @media only screen and (min-width: 1200px) and (max-width: 1300px) {
 .firstBox{
     width: 90%;
@@ -263,6 +273,7 @@
     padding: 0rem 3rem !important;
 }
 }
+/* ------------media query large laptop--------- */
 @media only screen and (min-width: 1300px) and (max-width: 1400px) {
     .firstBox{
         width: 90%;
@@ -286,6 +297,7 @@
         padding: 0rem 3rem !important;
     }
     }
+    /* ------------media query large laptop--------- */
 @media only screen and (min-width: 1400px) and (max-width: 1500px) {
     .firstBox{
         width: 91%;
