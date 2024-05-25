@@ -1,0 +1,311 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.pink{
+    background-color: #FFB1B1;
+}
+.space{
+    padding: 0rem 10rem;
+}
+.firstBox{
+    width: 79%;
+    min-height: 92vh;
+    border-radius: 0.8rem;
+    z-index: 4;
+    position: absolute;
+    top: 2rem;
+    left: 10rem;
+}
+.secondBox{
+    width: 47%;
+    min-height: 79vh;
+    border-radius: 0.8rem;
+    z-index:3 ;
+    position: absolute;
+    top: 5rem;
+    left: 25.5rem;
+}
+.thirdBox{
+    width: 16%;
+    min-height: 65vh;
+    border-radius: 1rem;
+    z-index: 2;
+    position: absolute;
+    top: 8rem;
+    left: 40.4rem;
+}
+.boxes{
+    z-index: 1;
+}
+.col{
+    padding: 0rem 2rem !important;
+}
+@media screen and (min-width:300px) and (max-width:500px) {
+    .firstBox,.secondBox,.one,.two,.four,.five{
+        display: none ;
+    }
+    .thirdBox{
+        width: 92%;
+        min-height: 94vh;
+        top: 1rem;
+        left: 1rem;
+        right: 1rem;
+    }
+    .space{
+        padding: 0rem 2rem !important;
+    }
+}
+@media screen and (min-width:500px) and (max-width:600px) {
+    .firstBox,.one,.five{
+        display: none ;
+    }
+    .thirdBox{
+        min-height: 75vh;
+        width: 32%;
+        top: 5rem;
+        left: 12rem;
+    }
+    .secondBox{
+        width: 92%;
+        min-height: 90vh;
+        top: 2rem;
+        left: 1rem;
+    }
+    .space,.col{
+        padding: 0rem 2rem !important;
+    }
+}
+@media screen and (min-width:600px) and (max-width:700px) {
+    .firstBox,.one,.five{
+        display: none ;
+    }
+    .thirdBox{
+        min-height: 75vh;
+        width: 32%;
+        top: 5rem;
+        left: 14rem;
+    }
+    .secondBox{
+        width: 92%;
+        min-height: 90vh;
+        top: 2rem;
+        left: 1rem;
+    }
+    .space,.col{
+        padding: 0rem 2rem !important;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width:800px) {
+    .firstBox,.one,.five{
+        display: none ;
+    }
+    .thirdBox{
+        width: 29%;
+        min-height: 75vh;
+        top: 5rem;
+        left: 17rem;
+        right: 17rem;
+    }
+    .secondBox{
+        width: 85%;  
+        min-height: 90vh;
+        top: 2rem;
+        left: 4rem;
+        right: 4rem;
+        }
+    .space,.col{
+        padding: 0rem 2.5rem !important;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 870px) {
+    .firstBox{
+        width: 96%;
+        min-height: 90vh;
+        top: 2rem;
+        left: 1rem;
+        right: 1rem;
+    }
+    .secondBox{
+        width: 58%;
+        min-height: 80vh;  
+        top: 4rem;
+        left: 11rem;
+    }
+    .thirdBox{
+        width: 20%;
+        min-height: 70vh;
+        top: 6rem;
+        left: 21rem;
+    }
+    .space,.col{
+        padding: 0rem 1.5rem !important;
+    }
+}
+@media only screen and (min-width: 870px) and (max-width: 950px){
+    .firstBox{
+        width: 96%;
+        min-height: 90vh;
+        top: 2rem;
+        left: 1rem;
+        right: 1rem;
+    }
+    .secondBox{
+        width: 58%;
+        min-height: 80vh;  
+        top: 4rem;
+        left: 12rem;
+    }
+    .thirdBox{
+        width: 20%;
+        min-height: 70vh;
+        top: 6rem;
+        left: 22.5rem;
+    }
+    .space,.col{
+        padding: 0rem 2rem !important;
+    }
+}
+
+
+@media only screen and (min-width: 950px) and (max-width: 1030px) {
+    .firstBox{
+        width: 96%;
+        min-height: 90vh;
+        top: 2rem;
+        left: 1rem;
+    }
+    .secondBox{
+        width: 53%;  
+        top: 4rem;
+        min-height: 80vh;
+        left: 15rem;
+    }
+    .thirdBox{
+        width: 21%;
+        top: 6rem;
+        left: 25rem;
+        min-height: 70vh;
+    } 
+    .space,.col{
+        padding: 0rem 2.5rem !important;
+    }
+}
+@media only screen and (min-width: 1030px) and (max-width: 1100px) {
+    .firstBox{
+    min-height: 90vh;
+    width: 90%;
+    top: 2rem;
+    left: 3rem;
+}
+.secondBox{
+    width: 52%;
+    top: 4rem;
+    min-height: 80vh;
+    left: 16rem;
+}
+.thirdBox{
+    width: 16%;
+    min-height: 70vh;
+    top: 6rem;
+    left: 28rem;
+}
+.space,.col{
+    padding: 0rem 2.5rem !important;
+}
+}
+@media only screen and (min-width: 1100px) and (max-width: 1200px) {
+    .firstBox{
+    min-height: 90vh;
+    width: 92%;
+    top: 2rem;
+    left: 3rem;
+}
+.secondBox{
+    width: 56%;
+    top: 4rem;
+    min-height: 80vh;
+    left: 16rem;
+}
+.thirdBox{
+    width: 20%;
+    min-height: 70vh;
+    top: 6rem;
+    left: 29rem;
+}
+.space,.col{
+    padding: 0rem 2.5rem !important;
+}
+}
+@media only screen and (min-width: 1200px) and (max-width: 1300px) {
+.firstBox{
+    width: 90%;
+    top: 2rem; 
+    min-height: 90vh;
+    left: 4rem;
+   }
+.secondBox{
+    width: 54%;
+    top: 4rem;
+    left: 18rem;
+    min-height: 80vh;
+    }
+.thirdBox{
+    width: 18%;
+    min-height: 70vh;
+    left: 32rem;
+    top: 6rem;
+    }
+.space,.col{
+    padding: 0rem 3rem !important;
+}
+}
+@media only screen and (min-width: 1300px) and (max-width: 1400px) {
+    .firstBox{
+        width: 90%;
+        top: 2rem; 
+        min-height: 90vh;
+        left: 4rem;
+       }
+    .secondBox{
+        width: 56%;
+        top: 4rem;
+        left: 18rem;
+        min-height: 80vh;
+        }
+    .thirdBox{
+        width: 19%;
+        min-height: 70vh;
+        left: 34rem;
+        top: 6rem;
+        }
+    .space,.col{
+        padding: 0rem 3rem !important;
+    }
+    }
+@media only screen and (min-width: 1400px) and (max-width: 1500px) {
+    .firstBox{
+        width: 91%;
+        top: 2rem; 
+        min-height: 90vh;
+        left: 4rem;
+       }
+    .secondBox{
+        width: 57%;
+        top: 4rem;
+        left: 19rem;
+        min-height: 80vh;
+        }
+    .thirdBox{
+        width: 19%;
+        min-height: 70vh;
+        left: 36rem;
+        top: 6rem;
+        }
+    .space,.col{
+        padding: 0rem 3rem !important;
+    }
+}
